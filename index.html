@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles here */
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-900 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold">Software Engineer Portfolio</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8 px-4">
+        <section id="about" class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">Haindavi Nalkila</h2>
+            <p class="text-gray-700">Determined and passionate ITM graduate student, excited to create, manage, and deliver content to solve problems within organizations, collaborating with teams, and looking forward to use my technical skills, at a fast-growing, innovative company. I worked as a software engineer in Tech Mahindra, India, for 2.5 years gaining an experience in Nokia Mediation and also worked with different international stake-holder's. Currently, I am pursuing my master's degree in Information Technology and Management from Illinois Institute of Technology, Chicago, United States of America.</p>
+        </section>
+
+        <section id="projects" class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Project 1 -->
+                <div class="bg-white p-4 shadow rounded-lg">
+                    <h3 class="font-bold text-lg">Project 1</h3>
+                    <p class="text-gray-700">Worked as a Associate Software Engineer for Mobifone Vietnam Team.</p>
+                    <h3 class="font-bold text-lg">Mobifone, Vietnam</h3>
+                    <p class="text-gray-700">
+                        <strong>Client:</strong> Nokia<br>
+                        <strong>Project Name:</strong> Mobifone, Vietnam<br>
+                        <strong>Technologies:</strong> Nokia Mediation, Comptel Eventlink, C, Perl, Linux and PSQL<br>
+                        <strong>Job Duties:</strong>
+                        <ul class="list-disc pl-6">
+                            <li>Worked on development of customized Collector, Decoder, Encoder and BLN nodes in C, C++, Java and Perl languages based on the customer requirements.</li>
+                            <li>Worked on configuration of GTP collectors to pull real-time call data records [CDR’s].</li>
+                            <li>Worked on end-to-end development, deployment and testing of data processing streams.</li>
+                            <li>Worked on configuration of GTP collectors to pull real time call data records [CDR’S] for both CMG and
+                                CMM Data Processing streams.</li>
+                            <li>Worked on Development of streams and nodes for processing of HUAWEI MSC, NOKIA SGW, CMG and
+                                CMM records.</li>
+                            <li>Worked on end-to-end development, testing and deployment of HUAWEI MSC, NOKIA SGW, CMG and
+                                CMM Data Processing streams.</li>
+                            <li>Mobifone Phase 9 expansion activities</li>
+                            <li>Stream porting from DR20.6 to NM22 (using latest NM22 library, no development since pass through
+                                stream)</li>
+                            <li>Involved in preparation of FS documents, Unit Test Cases, Defect Fixing and Debugging.</li>
+                            <li>Hands on experience on version control tools like GitLab and Vobs.</li>
+                            <li>Involved in customer support UAT and customer support cutover as per proposed schedule.</li>
+                        </ul>
+                    </p>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white p-4 shadow rounded-lg">
+                    <h3 class="font-bold text-lg">Project 2</h3>
+                    <p class="text-gray-700">Worked as a Software Engineer for DIGI Telecommunications Malaysia Team.</p>
+                    <h3 class="font-bold text-lg">DIGI Telecommunications, Malaysia</h3>
+                    <p class="text-gray-700">
+                        <strong>Client:</strong> Nokia<br>
+                        <strong>Project Name:</strong> DIGI Telecommunications, Malaysia<br>
+                        <strong>Technologies:</strong> Nokia Mediation, Comptel Eventlink, C, Perl, Linux and PSQL.br>
+                        <strong>Job Duties:</strong>
+                        <ul class="list-disc pl-6">
+                            <li>Migration of Mediation system from Comptel Eventlink to Nokia Mediation NM22.</li>
+                            <li>Development of Decoder, BLN and Encoder nodes in C, C++ and Perl language.</li>
+                            <li>Hands on experience on development of Data Importers nodes in Nokia DR.</li>
+                            <li>Worked on development of streams and nodes for processing of MOC, MTC, PGW, SGW, SGSN records.</li>
+                            <li>Worked on end-to-end development, testing and deployment of AB_CDR, AB_EDR, AB_CON,
+                                ACRM_CIM, ACRM_EPC, ACRM_RMS Processing streams.</li>
+                            <li>Developed 5G roaming stream [ZTE CG Processing Stream] to process 5G CR’s and distribute them to
+                                billing system.</li>
+                            <li>Involved in preparation of FS documents, Unit Test Cases, Defect Fixing and Debugging.</li>
+                            <li>Hands on experience on version control tools like GitLab and Vobs.</li>
+                            <li>Involved in preparation of FS documents, Unit Test Cases, Defect Fixing and Debugging.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="contact">
+            <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+            <form id="contactForm" class="max-w-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Send Message</button>
+            </form>
+            <p id="responseMessage" class="mt-2"></p>
+        </section>
+    </main>
+
+    <footer class="bg-blue-900 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Software Engineer Portfolio</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for form submission
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Get form data
+            const formData = new FormData(this);
+
+            // Example: Log form data to console
+            console.log({
+                name: formData.get('name'),
+                email: formData.get('email'),
+                message: formData.get('message')
+            });
+
+            // You can perform further actions here, such as sending the form data to a server using fetch API
+
+            // Example: Show response message
+            document.getElementById('responseMessage').innerText = "Message sent successfully!";
+        });
+    </script>
+</body>
+
+</html>
